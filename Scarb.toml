@@ -1,0 +1,12 @@
+[package]
+name = "cairol"
+version = "0.1.0"
+description = "Cairo 1 laboratory to explore the language."
+homepage = ""
+
+[dependencies]
+
+[scripts]
+test-docker = "sudo docker run --rm -v $(pwd):/work --entrypoint cairo-test starknet/cairo:1.0.0 --starknet /work/"
+
+[[target.starknet-contract]]

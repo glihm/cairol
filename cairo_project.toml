@@ -1,0 +1,4 @@
+# This will be removed once Scarb integrates it.
+[crate_roots]
+cairol = "src"
+tests = "tests"
