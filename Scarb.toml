@@ -5,6 +5,7 @@ description = "Cairo 1 laboratory to explore the language."
 homepage = ""
 
 [dependencies]
+starknet = ">=1.1.0"
 
 [scripts]
 test-docker = "sudo docker run --rm -v $(pwd):/work --entrypoint cairo-test starknet/cairo:1.0.0 --starknet /work/"
